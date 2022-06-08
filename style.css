@@ -72,7 +72,7 @@ body{
     
 }
 .poke-img:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 .hp{
     text-align: center;
@@ -111,10 +111,11 @@ body{
 }
 
 
-@media only screen and (min-width:1030px){
+@media only screen and (min-width:1080px){
     #card{
         width:275px;
         height:300px;
+        margin-top:1em;
         
     }
     .stats{
