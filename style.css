@@ -116,7 +116,7 @@ body{
 }
 
 
-@media only screen and (min-width:1080px){
+@media only screen and (min-width:1280px){
     #card{
         width:275px;
         height:300px;
@@ -139,5 +139,20 @@ body{
     }
     .types{
         font-size:0.8em;
+    }
+}
+@media only screen and (max-width:480px){
+
+    .poke-img{
+        width:150px;
+        height:70px;
+    }
+    #card{
+        width:220px;
+        height:220px;
+        top:10%;
+    }
+    .top{
+        height:60%;
     }
 }
