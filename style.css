@@ -155,4 +155,7 @@ body{
     .top{
         height:60%;
     }
+    .types{
+        font-size:0.8rem;
+    }
 }
