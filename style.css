@@ -45,6 +45,8 @@ body{
     border-radius:10px;
     border:1px solid black;
     transform-style:preserve-3d;
+    width:256px;
+    height:260px;
 }
 
 #btn{
@@ -64,8 +66,8 @@ body{
 }
 
 .poke-img{
-    width:100px;
-    height:50px;
+    width:200px;
+    height:130px;
     position:relative;
     transform: translateZ(50px);
     transition: 1s ease-in-out;
@@ -93,13 +95,16 @@ body{
     transform: translateZ(50px);
 }
 .stats{
-    display:flex;
-    gap:1em;
-    justify-content:center;
-    padding-top:5px;
-    font-weight:bold;
-    padding-top:5px;
-    font-size:0.7em;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    padding-top: 5px;
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 0.8em;
+    position: absolute;
+    bottom: 0.8em;
+    width: 100%;
 }
 .types{
     display: flex;
