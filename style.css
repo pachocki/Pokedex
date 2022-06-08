@@ -26,7 +26,7 @@ body{
     z-index: 1;
 }
 .top{
-    margin: 2em auto;
+    margin: 1em auto;
     display: flex;
     align-items: center;
     height: 50%;
@@ -37,10 +37,9 @@ body{
 
 }
 #card{
-    padding-top: 10px;
     margin: 0 auto;
     text-align: center;
-    width: 200px;
+    padding:0.8em;
     z-index: 1;
     position: relative;
     border-radius:10px;
@@ -66,14 +65,14 @@ body{
 
 .poke-img{
     width:100px;
-    height:90px;
+    height:50px;
     position:relative;
     transform: translateZ(50px);
     transition: 1s ease-in-out;
     
 }
 .poke-img:hover{
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 .hp{
     text-align: center;
