@@ -13,22 +13,23 @@ body{
 
 }
 .container{
-    width:100%;
-    height:100vh;
-    display:flex;
+    width: 100%;
+    height: 100vh;
+    display: flex;
     flex-direction: column;
-    margin:0 auto;
-    background-image:url(./images/gameboy.png);
-    background-repeat:no-repeat;
+    margin: 0 auto;
+    background-image: url(./images/gameboy.png);
+    background-repeat: no-repeat;
     background-size: contain;
-    background-position:center;
+    background-position: center;
     position: relative;
-    z-index:1;
+    z-index: 1;
 }
 .top{
-    margin: 1em auto;
-    z-index:;
-    position:relative;
+    margin: 2em auto;
+    display: flex;
+    align-items: center;
+    height: 50%;
 }
 .bottom{
     width:100%;
@@ -36,13 +37,10 @@ body{
 
 }
 #card{
-    
     padding-top: 10px;
     margin: 0 auto;
     text-align: center;
     width: 200px;
-    height: 200px;
-    margin-top: 2.2em;
     z-index: 1;
     position: relative;
     border-radius:10px;
