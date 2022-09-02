@@ -26,10 +26,12 @@ body{
     z-index: 1;
 }
 .top{
-    margin: 1em auto;
     display: flex;
     align-items: center;
-    height: 50%;
+    height: 35%;
+    align-items: center;
+    top: 10%;
+    position: relative;
 }
 .bottom{
     width:100%;
@@ -37,17 +39,18 @@ body{
 
 }
 #card{
-    margin: 0 auto;
-    text-align: center;
-    padding:0.8em;
-    z-index: 1;
-    position: relative;
-    border-radius:10px;
-    border:1px solid black;
-    transform-style:preserve-3d;
-    width: 215px;
-    height: 75%;
-    top:2%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0.8em;
+        z-index: 1;
+        position: relative;
+        border-radius: 10px;
+        border: 1px solid black;
+        transform-style: preserve-3d;
+        width: 220px;
+        height: 219px;
+        top: 0%;
+
 }
 
 #btn{
@@ -102,8 +105,8 @@ body{
     padding-top: 5px;
     font-weight: bold;
     padding-top: 5px;
-    font-size: 0.8em;
-    bottom: 0.8em;
+    font-size: 1em;
+    bottom: 1;
     width: 100%;
     position:relative;
 }
@@ -117,15 +120,18 @@ body{
 }
 
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 320px) {
     #card{
-        width: 178px;
-        height: 65%;
-        top: 10%;
+    width: 190px;
+    height: 200px;
+    top: 17%;
+
+    }
+    .stats{
+        font-size:0.8em;
     }
     .poke-img{
-        
-            width: 100%;
-            height: 65px;
+        height:65px;
     }
+   
   }
