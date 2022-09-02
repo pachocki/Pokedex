@@ -30,7 +30,8 @@ body{
     display: flex;
     align-self: center;
     justify-content: center;
-    margin-top: 15px;
+    position: relative;
+    top: 6%;
 }
 
 #card{
@@ -43,8 +44,8 @@ body{
         border: 1px solid black;
         transform-style: preserve-3d;
         width: 220px;
-        height: 219px;
-        bottom: 0;
+        height: 220px;
+        top: 0;
 
 }
 
@@ -129,8 +130,8 @@ body{
         height:50px;
     }
     .top{
-        align-self: end;
-        margin-bottom: 30px;
+        top:17%;
+     
     }
     
     
