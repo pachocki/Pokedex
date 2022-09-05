@@ -63,7 +63,7 @@ let generateCard = (data) => {
     const cardColor = typeColor[data.types[0].type.name];
 
     card.innerHTML=`     
-    <p class="hp">
+    <p class="hp" class="js-tilt">
     <span>HP</span>
     ${hp}
 </p>
@@ -71,9 +71,9 @@ let generateCard = (data) => {
 <h2 class="poke-name">
     ${pokeName}
 </h2>
-<div class="types">
+<div class="types"class="js-tilt">
 </div>
-<div class="stats">
+<div class="stats" class="js-tilt">
     <div>
     <h4>${statAttack}</h4>
     <p>Attack</p>
