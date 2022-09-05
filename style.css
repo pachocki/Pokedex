@@ -31,6 +31,7 @@ body{
 
 
 #card{
+
         display:flex;
         flex-direction: column;
         gap:20px;
@@ -43,6 +44,7 @@ body{
         transform-style: preserve-3d;
         top: 0;
         width:90%;
+
 
 }
 
@@ -113,14 +115,13 @@ body{
     transform: translateZ(50px);
 }
 
+
 /*Media Queries*/
 @media only screen and (max-width: 400px) {
     #card{
     padding:2em;
-   
-
     }
     .stats{
-        font-size:1em;
+        font-size:1.2em;
     }
 }
