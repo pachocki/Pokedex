@@ -58,6 +58,7 @@ body{
     border:none;
     padding:10px;
     font-weight: bold;
+    transition: 1s ease-in-out;
 }
 #btn:hover{
     background:rgb(102, 95, 95);
